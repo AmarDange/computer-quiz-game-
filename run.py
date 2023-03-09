@@ -8,7 +8,7 @@ playing = input("Do you want to play?")
 if playing !="yes":
     quit()
 
-print("Okay! Let's play! :)")
+print("Okay! Let's play! :")
 score = 0
 
 answer = input("Is the coding langyage Python, named after a snake? ")
