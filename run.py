@@ -11,7 +11,7 @@ if playing !="yes":
 print("Okay! Let's play! :")
 score = 0
 
-answer = input("Is the coding langyage Python, named after a snake? ")
+answer = input("Is the coding language Python, named after a snake? ")
 if answer == "no":
     print('correct!!')
     score += 1
@@ -87,4 +87,4 @@ else:
 
 
 print("You got " + str(score) + " questoins correct!")
-print("You got" + str((score/10) *100) + "%. ")
+print("You got " + str((score/10) *100) + "%. ")
