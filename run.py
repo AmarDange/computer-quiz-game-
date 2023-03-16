@@ -1,7 +1,23 @@
 # Your code goes here.
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
+
+import pyfiglet
+from termcolor import colored
+
+def Welcome():
+    """
+    Function to display home page
+    """
+    title = "Welcome  to  COMPUTER   QUIZ  GAME "
+    print(colored(pyfiglet.figlet_format(title), "green"))
+Welcome()
+
+
 print("Welcome to my computer quiz")
+
+player_name = input("Enter Your Name:  ")
+print("Welcome ", player_name, "to the 'Computer Quiz Game.' ")
 
 playing = input("Do you want to play?")
 
